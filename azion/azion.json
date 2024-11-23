@@ -1,0 +1,58 @@
+{
+  "name": "pokestickerstore",
+  "bucket": "pokestickerstore",
+  "preset": "next",
+  "env": "production",
+  "prefix": "20241123080454",
+  "not-first-run": true,
+  "function": {
+    "id": 32666,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 31388,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 189242
+  },
+  "application": {
+    "id": 1732347633,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1732345606,
+    "name": "pokestickerstore",
+    "domain_name": "mqf2uoil16.map.azionedge.net",
+    "url": "https://mqf2uoil16.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 167475,
+      "origin-key": "875827d2-22b8-4d3e-944c-d54849db4e6b",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 324059,
+        "name": "Set Storage Origin for All Requests",
+        "phase": "request"
+      },
+      {
+        "id": 324060,
+        "name": "Deliver Static Assets",
+        "phase": "request"
+      },
+      {
+        "id": 324061,
+        "name": "Execute Edge Function",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
