@@ -21,4 +21,12 @@
     "image": "/images/Ho-oh.jpeg",
     "price": 25.00
 
+},
+{   
+    "id": "price_1Mb6RGIG28tlgXFUTKg9L4fV",
+    "title": "mega lucario",
+    "description": "aura-wielding,steel-fighting pokemon with exceptional strength,speed and loyality",
+    "image": "/images/lucario.jpeg",
+    "price": 25.00
+
 }]
